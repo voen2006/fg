@@ -73,3 +73,18 @@ button:hover {
     backdrop-filter: blur(2px);
     background-color: #ffffff37;
 }
+img{
+    width: 100%;
+}
+.back-card{
+    height: 50px;
+    text-align: center;
+    background-color: aqua;
+    transform: translateY(-50px);
+    opacity: 0;
+    transition: 0.6s;
+}
+.my-card-2:hover .back-card{
+transform: translateY(0px);
+opacity: 1;
+}
